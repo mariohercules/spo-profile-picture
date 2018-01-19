@@ -1,5 +1,6 @@
 <?php
 
+require_once 'HttpUtilities.php';
 require_once 'SPList.php';
 
 /**
