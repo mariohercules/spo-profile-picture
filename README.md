@@ -11,7 +11,7 @@ require_once 'SPOClient.php';
 function connectSPO($url,$username,$password)
 {
     try {
-        $client = new SPOClientPoint($url);
+        $client = new SPOClient($url);
         $client->signIn($username,$password);
 		return $client;
         echo 'You have been authenticated successfully\n';
